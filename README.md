@@ -16,4 +16,3 @@
 <img width="776" alt="17" src="https://user-images.githubusercontent.com/93515126/156952534-a8a5aa96-355a-48c4-aa24-0436acb50677.png">
 ## Summary: 
 - To evaluate which model is best at forecasting which loans are the most risky, we undersampled, oversampled, and combined both in the first four models. In the next two models, we used ensemble classifiers to resample the data and try to forecast whether loans are high or low risk. Our accuracy score in the first four models is lower than the ensemble classifiers, and the recall in the oversampling/undersampling/mixed models is also poor. Typically, you want a fair mix of recall and precision in your models, which is why I prefer ensemble classifiers over the first four models. Because of its high accuracy score and strong mix of precision and recall scores, the Easy Ensemble looks to have the finest balance of all the models.
-
